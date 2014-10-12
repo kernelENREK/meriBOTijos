@@ -10,7 +10,7 @@ namespace meriBOTijos.ZonaForo_Helpers
         public int Topic_ID { get; set; }
 
         /// <summary>
-        /// Dirección del post en formato: http://zonaforobeta.meristation.com/topic/TOPIC_ID/
+        /// Dirección del post en formato: http://zonaforo.meristation.com/topic/TOPIC_ID/
         /// </summary>
         public string Topic_Url { get; set; }
 

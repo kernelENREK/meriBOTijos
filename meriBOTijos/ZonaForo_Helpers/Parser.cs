@@ -88,7 +88,7 @@ namespace meriBOTijos.ZonaForo_Helpers
         /// El proceso es el siguiente:
         /// 1) Se consulta a la BDD cual es el último topic ID que se ha tuiteado con anterioridad
         /// 2) Se parsea el código HTML que se obtiene con wclient, obteniendo el ID, el titulo y el forero que ha iniciado el hilo
-        ///    2.1) Si el TopicID del hilo que se ha parseado es menor que el ultimo tuit se añade a 'Hilos'
+        ///    2.1) Si el TopicID del hilo que se ha parseado es mayor que el ultimo tuit se añade a 'Hilos'
         ///    2.2) Se ordena 'Hilos' de menor a mayor TopicID
         ///    2.3) Si hay mas de 5 'Hilos' nos quedamos con los 5 más antiguos. Esto se hace para no tuitear 23 hilos de golpe
         ///         ya que si se tuitean muchos tweets de golpe Twitter puede 'banear' temporalmente la aplicación que hemos dado
